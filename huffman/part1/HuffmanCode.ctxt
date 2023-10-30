@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=HuffmanCode
+comment1.params=ft
+comment1.target=HuffmanCode(FrequencyTable)
+comment1.text=\n\ Uses\ the\ given\ frequency\ table\ to\ build\ a\ Huffman\ encoding\ tree,\n\ and\ then\ traverses\ it\ to\ collect\ a\ table\ of\ encodings\ for\ the\ characters\n\ in\ the\ tree\n
+comment2.params=c
+comment2.target=java.lang.String\ encode(char)
+comment2.text=\n\ Looks\ up\ and\ returns\ the\ variable-length\ binary\ encoding\n\ for\ the\ given\ character,\ c\n
+comment3.params=cur\ path
+comment3.target=void\ buildCode(Node,\ java.lang.String)
+comment3.text=\ Traverses\ the\ tree\ rooted\ at\ 'cur'\ and\ adds\ all\ leaf\ nodes\n\ \ \ \ that\ are\ found\ to\ the\ 'code[]'\ array\ with\ their\ binary\ encoding.\n\ \ \ \ The\ 'path'\ is\ an\ accumulator\ that\ keeps\ track\ of\ the\ explored\n\ \ \ \ path\ of\ left/right\ branches\ via\ "0"\ and\ "1"s.\n
+comment4.params=ft
+comment4.target=Node\ buildTree(FrequencyTable)
+comment5.params=out
+comment5.target=void\ export(java.io.PrintWriter)
+comment6.params=cur\ out
+comment6.target=void\ export(Node,\ java.io.PrintWriter)
+comment7.params=s\ c
+comment7.target=java.lang.String\ pad(java.lang.String,\ int)
+numComments=8

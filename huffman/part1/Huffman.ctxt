@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Huffman
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=inFile\ outFile
+comment2.target=void\ compress(java.lang.String,\ java.lang.String)
+numComments=3
