@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IStack
+comment0.text=\n\ A\ small\ stack\ interface.\ \ You\ can\ query\ the\ size\ of\ the\ stack\ and\n\ ask\ whether\ it\ is\ empty,\ push\ items,\ pop\ items,\ and\ peek\ at\ the\ top\n\ item.\n
+comment1.params=item
+comment1.target=java.lang.Object\ push(java.lang.Object)
+comment1.text=\n\ Adds\ the\ given\ item\ to\ the\ top\ of\ the\ stack.\n\ @return\ the\ same\ item\n
+comment2.params=
+comment2.target=java.lang.Object\ pop()
+comment2.text=\n\ Removes\ the\ top\ item\ from\ the\ stack\ and\ returns\ it.\n\ @exception\ java.util.NoSuchElementException\ if\ the\ stack\ is\ empty.\n
+comment3.params=
+comment3.target=java.lang.Object\ peek()
+comment3.text=\n\ Returns\ the\ top\ item\ from\ the\ stack\ without\ popping\ it.\n\ @exception\ java.util.NoSuchElementException\ if\ the\ stack\ is\ empty.\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ number\ of\ items\ currently\ in\ the\ stack.\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\n\ Returns\ whether\ the\ stack\ is\ empty\ or\ not.\n
+numComments=6

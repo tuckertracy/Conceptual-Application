@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IPageTracker
+comment0.text=\n\ Operations\ required\ for\ implementing\ a\ page\ history\n\ mechanism\ for\ a\ web\ browser.\ Every\ implementation\ should\n\ provide\ an\ initial\ current\ page\ named\ "Home",\ which\ should\n\ thereafter\ always\ be\ accessible\ by\ going\ all\ the\ way\ back\n\ in\ the\ history.\n\n
+comment1.params=
+comment1.target=java.lang.String\ currentPage()
+comment1.text=\n\ Produces\ the\ name/URL\ of\ the\ current\ page\n
+comment2.params=n
+comment2.target=java.lang.String\ goBack(int)
+comment2.text=\n\ Produces\ the\ name/URL\ of\ the\ page\ that\ results\ from\ going\ back\n\ n\ steps\ in\ the\ history.\ This\ should\ never\ go\ earlier\ than\ the\ \n\ initial\ "Home"\ page.\ If\ n\ <\=\ 0,\ do\ nothing.\n\ @param\ n\ number\ of\ steps\ to\ go\ back\ in\ the\ history\n\ @return\ the\ name/URL\ of\ the\ current\ page\ after\ going\ back\n
+comment3.params=n
+comment3.target=java.lang.String\ goForward(int)
+comment3.text=\n\ Produces\ the\ name/URL\ of\ the\ page\ that\ results\ from\ going\ forward\n\ n\ steps\ in\ the\ history.\ If\ n\ <\=\ 0,\ or\ if\ there\ are\ no\ \n\ pages\ forward\ in\ the\ history,\ do\ nothing.\n\ @param\ n\ number\ of\ steps\ to\ go\ forward\ in\ the\ history\n\ @return\ the\ name/URL\ of\ the\ current\ page\ after\ going\ forward\n
+comment4.params=pageName
+comment4.target=void\ visit(java.lang.String)
+comment4.text=\n\ Make\ the\ current\ page\ be\ the\ given\ page\ name/URL.\ This\ should\n\ cause\ the\ current\ page\ just\ before\ the\ operation\ become\ the\n\ one\ that\ would\ be\ accessed\ by\ \ goBack(1),\ and\ it\ should\ also\n\ clear\ out\ the\ forward\ history.\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\n\ Clear\ out\ both\ the\ backward\ and\ forward\ history,\ returning\ the\n\ current\ page\ to\ "Home".\n
+numComments=6

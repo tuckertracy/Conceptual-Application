@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tracker
+comment0.text=\n\ Write\ a\ description\ of\ class\ Tracker\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=capacity
+comment1.target=Tracker(int)
+comment2.params=
+comment2.target=java.lang.String\ currentPage()
+comment2.text=\n\ Produces\ the\ name/URL\ of\ the\ current\ page\n
+comment3.params=n
+comment3.target=java.lang.String\ goBack(int)
+comment3.text=\n\ Produces\ the\ name/URL\ of\ the\ page\ that\ results\ from\ going\ back\n\ n\ steps\ in\ the\ history.\ This\ should\ never\ go\ earlier\ than\ the\ \n\ initial\ "Home"\ page.\ If\ n\ <\=\ 0,\ do\ nothing.\n\ @param\ n\ number\ of\ steps\ to\ go\ back\ in\ the\ history\n\ @return\ the\ name/URL\ of\ the\ current\ page\ after\ going\ back\n
+comment4.params=n
+comment4.target=java.lang.String\ goForward(int)
+comment4.text=\n\ Produces\ the\ name/URL\ of\ the\ page\ that\ results\ from\ going\ forward\n\ n\ steps\ in\ the\ history.\ If\ n\ <\=\ 0,\ or\ if\ there\ are\ no\ \n\ pages\ forward\ in\ the\ history,\ do\ nothing.\n\ @param\ n\ number\ of\ steps\ to\ go\ forward\ in\ the\ history\n\ @return\ the\ name/URL\ of\ the\ current\ page\ after\ going\ forward\n
+comment5.params=pageName
+comment5.target=void\ visit(java.lang.String)
+comment5.text=\n\ Make\ the\ current\ page\ be\ the\ given\ page\ name/URL.\ This\ should\n\ cause\ the\ current\ page\ just\ before\ the\ operation\ become\ the\n\ one\ that\ would\ be\ accessed\ by\ \ goBack(1),\ and\ it\ should\ also\n\ clear\ out\ the\ forward\ history.\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\n\ Clear\ out\ both\ the\ backward\ and\ forward\ history,\ returning\ the\n\ current\ page\ to\ "Home".\n
+numComments=7

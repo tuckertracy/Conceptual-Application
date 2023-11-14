@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=LeakyStack
+comment0.text=\n\ Write\ a\ description\ of\ class\ LeakyStack\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=capacity
+comment1.target=LeakyStack(int)
+comment2.params=item
+comment2.target=java.lang.Object\ push(java.lang.Object)
+comment2.text=\n\ Adds\ the\ given\ item\ to\ the\ top\ of\ the\ stack.\n\ @return\ the\ same\ item\n
+comment3.params=
+comment3.target=java.lang.Object\ pop()
+comment3.text=\n\ Removes\ the\ top\ item\ from\ the\ stack\ and\ returns\ it.\n\ @exception\ java.util.NoSuchElementException\ if\ the\ stack\ is\ empty.\n
+comment4.params=
+comment4.target=java.lang.Object\ peek()
+comment4.text=\n\ Returns\ the\ top\ item\ from\ the\ stack\ without\ popping\ it.\n\ @exception\ java.util.NoSuchElementException\ if\ the\ stack\ is\ empty.\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\n\ Returns\ the\ number\ of\ items\ currently\ in\ the\ stack.\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\n\ Returns\ whether\ the\ stack\ is\ empty\ or\ not.\n
+comment7.params=
+comment7.target=void\ clear()
+numComments=8
