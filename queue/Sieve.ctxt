@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Sieve
+comment1.params=
+comment1.target=Sieve()
+comment2.params=n
+comment2.target=void\ computeTo(int)
+comment3.params=
+comment3.target=void\ reportResults()
+comment4.params=
+comment4.target=int\ getMax()
+comment5.params=
+comment5.target=int\ getCount()
+numComments=6
