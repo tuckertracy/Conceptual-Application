@@ -29,7 +29,8 @@ ui <- fluidPage(
 
 # Define server function
 server <- function(input, output) {
-  data<-read.csv("data.csv", stringsAsFactors = TRUE)
+  data<-read.csv(file = "/Users/bretttracy/Desktop/Shiny\ Directory/data.csv", 
+                 stringsAsFactors = TRUE)
  output$plot <- renderPlot({
    
    # Make input column a factor
