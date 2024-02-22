@@ -1,5 +1,4 @@
- 
-
+   
 /**
  * A small stack interface.  You can query the size of the stack and
  * ask whether it is empty, push items, pop items, and peek at the top
@@ -36,3 +35,4 @@ public interface IStack<T> {
   public boolean isEmpty();
 
 }
+
